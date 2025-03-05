@@ -6,7 +6,7 @@ type: 'error' | 'success' | 'warning' | ''
 const Toast: FC<ToastP> = ({message,type}) => {
   return (
     <div
-      style={{
+      style={{ 
         height: "2rem",
         width: "6rem",
         padding: "0.4rem",
